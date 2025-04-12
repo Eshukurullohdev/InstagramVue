@@ -4,6 +4,6 @@
 
 <template>
   <main>
-    <h1 class="text-3xl text-red-600">home</h1>
+    <RouterLink to="/menu">Menu</RouterLink>
   </main>
 </template>
