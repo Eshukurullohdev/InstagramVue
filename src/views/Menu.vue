@@ -34,4 +34,45 @@
             </div>
         </div>
     </div>
+
+
+    <div class="container_large mt-4 flex items-center justify-between">
+        <div class="flex items-center gap-4">
+            <a href="#" class="flex items-center gap-2 select-none">
+                <img class="w-[30px] h-[30px] rounded-full"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jybTGUSvxWxihbZMxwinqDCquA6PkMiC1Q&s"
+                    alt="">
+                <blockquote class="text-[#2C7AC7] font-bold text-[25px]">
+                    Uzum market
+                </blockquote>
+            </a>
+            <button class="py-2 px-4 bg-[#E5E5FF] rounded-[5px] text-[#7F4DFF]">
+                <i class="text-[20px] text-[#7F4DFF] fa-brands fa-buffer !mr-2"></i>
+                Katalog</button>
+
+            <input class="text-[14px] outline-none w-[400px] h-[40px] p-2  rounded-[4px] border-[1px] border-[#DEE0E5]"
+                type="text" placeholder="Mahsulat va turkumlarni izlash">
+
+            <div
+                class="w-[80px] h-[39px] bg-[#EDEFF2] flex items-center justify-center rounded-r-[4px] cursor-pointer relative right-[96px]">
+                <i class="fa-solid fa-search"></i>
+            </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <div class="flex items-center gap-3  hover:bg-[#B2B2B2] hover:px-3 hover:py-3 rounded-[5px]">
+                <i class="text-[] fa-regular fa-user"></i>
+                <span class="text-[14px]">Shukurullloh</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <i class="text-[] fa-regular fa-heart"></i>
+                <span class="text-[14px]">Saralan</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <i class="text-[] fa-solid fa-store"></i>
+                <span class="text-[14px]">Shukurullloh</span>
+            </div>
+        </div>
+    </div>
+
 </template>
