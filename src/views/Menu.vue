@@ -75,4 +75,21 @@
         </div>
     </div>
 
+    <div class="container_large mt-6 flex items-center">
+        <div class="flex items-center gap-2">
+            <img class="w-[24px] h-[24px]" src="/public/nav_logo.png" alt="">
+            <a class="text-[12px] font-bold" href="#">Hafta tovarlari</a>
+        </div>
+        <div class="text-[14px] text-[#4d4f59] flex gap-[27px] ml-[130px]">
+            <a href="#">Elektronika</a>
+            <a href="#">Maishiy texnika</a>
+            <a href="#">Kiyim</a>
+            <a href="#">Poyabzallar</a>
+            <a href="#">Go'zalik va parvarish</a>
+            <a href="#">Salomatlik</a>
+            <a href="#">Uy-ro'zg'or buyumlari</a>
+            <a href="#">Qurulush va taminlash</a>
+            <a href="#">Yana <i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+    </div>
 </template>
