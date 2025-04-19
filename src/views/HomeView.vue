@@ -9,7 +9,7 @@
       clickable: true,
     }" :navigation="true" :modules="modules" class="mySwiper">
         <swiper-slide>
-          <img src="/public/banner1.jpg" alt="">
+          <img src="/public/banner2.jpg" alt="">
         </swiper-slide>
         <swiper-slide>
           <img src="/public/banner2.jpg" alt="">
@@ -27,6 +27,7 @@
     </div>
   </main>
 </template>
+
 <script setup>
 import Menu from './Menu.vue';
 // Import Swiper Vue.js components
