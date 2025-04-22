@@ -1,6 +1,6 @@
 <template>
   <Menu />
-  <main>
+  <main class="container_large">
     <div class="container_large mt-4">
       <swiper :spaceBetween="30" :centeredSlides="true" :autoplay="{
         delay: 2500,
@@ -24,6 +24,25 @@
           <img src="/public/banner1.jpg" alt="">
         </swiper-slide>
       </swiper>
+    </div>
+
+    <div class="mt-4 flex items-center justify-between">
+        <div class="w-[301px] h-[60px] bg-[#EFEFEF] rounded-[15px] flex items-center justify-center gap-2">
+          <img src="/public/baby.png" alt="" width="40px" height="40px">
+          <span class="text-[14px]">Bolalar o'yinchog'i</span>
+        </div>
+        <div class="w-[301px] h-[60px] bg-[#EFEFEF] rounded-[15px] flex items-center justify-center gap-2">
+          <img src="/public/closes.png" alt="" width="40px" height="40px">
+          <span class="text-[14px]">Bolalar o'yinchog'i</span>
+        </div>
+        <div class="w-[301px] h-[60px] bg-[#EFEFEF] rounded-[15px] flex items-center justify-center gap-2">
+          <img src="/public/tick.png" alt="" width="40px" height="40px">
+          <span class="text-[14px]">Bolalar o'yinchog'i</span>
+        </div>
+        <div class="w-[301px] h-[60px] bg-[#EFEFEF] rounded-[15px] flex items-center justify-center gap-2">
+          <img src="/public/star.png" alt="" width="40px" height="40px">
+          <span class="text-[14px]">Bolalar o'yinchog'i</span>
+        </div>
     </div>
   </main>
 </template>
