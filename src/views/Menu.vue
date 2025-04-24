@@ -1,13 +1,9 @@
 <script setup>
-import {ref} from 'vue'
+import { ref } from 'vue'
 
-const  MenuOpen = ref(false)
-
-const showMenu = () => {
-    MenuOpen.value = !MenuOpen.value
-}
-
+const MenuOchil = ref(false)
 </script>
+
 <template>
     <div class="bg-[#F0F2F5] p-2 text-[14px]">
         <div class="container_large flex items-center justify-between w-full">
@@ -72,11 +68,11 @@ const showMenu = () => {
                 <i class="text-[] fa-regular fa-user"></i>
                 <span class="text-[14px]">Shukurullloh</span>
             </div>
-            <div class="flex items-center gap-3">
+            <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
                 <i class="text-[] fa-regular fa-heart"></i>
                 <span class="text-[14px]">Saralan</span>
             </div>
-            <div class="flex items-center gap-3">
+            <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
                 <i class="text-[] fa-solid fa-store"></i>
                 <span class="text-[14px]">Shukurullloh</span>
             </div>
@@ -97,12 +93,33 @@ const showMenu = () => {
             <a href="#">Salomatlik</a>
             <a href="#">Uy-ro'zg'or buyumlari</a>
             <a href="#">Qurulush va taminlash</a>
-            
-            <a @click="showMenu" href="#">Yana <i class="fa-solid fa-chevron-down"></i></a>
+            <a @click="MenuOchil = !MenuOchil" href="#">Yana <i class="fa-solid fa-chevron-down"></i></a>
         </div>
-        <div v-if="MenuOpen" class="w-full h-[100px] bg-red-500">
-            <i @click="showMenu" class="fa-solid fa-xmark cursor-pointer"></i>
-            <h1>narsalar</h1>
+    </div>
+    <div v-if="MenuOchil" class="container_large w-full h-[600px] bg-white relative bottom-[40px]">
+        <i @click="MenuOchil = !MenuOchil" class="fa-solid fa-xmark cursor-pointer relative left-[97%] top-[1%] text-[22px] hover:bg-[#F0F2F5] p-3 rounded-full"></i>
+        <div>
+            <div class="flex items-center justify-between w-[263px]">
+                <div class="flex items-center gap-2">
+                    <img width="32px" height="32px" src="https://storage.yandexcloud.net/um-prod-static/fast_categories/nasiya210425.png" alt="">
+                    <span class="text-[14px] font-semibold hover:text-[#2C7AC7]">Nasiya Foydaliroq</span>
+                </div>
+                <i class="text-[12px] fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="flex items-center justify-between w-[263px] mt-4">
+                <div class="flex items-center gap-2">
+                    <img width="32px" height="32px" src="https://static.uzum.uz/fast_categories/Topsales.png" alt="">
+                    <span class="text-[14px] font-semibold hover:text-[#2C7AC7]">Hafta Tovarlari</span>
+                </div>
+                <i class="text-[12px] fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="flex items-center justify-between w-[263px] mt-4">
+                <div class="flex items-center gap-2">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M3 11C3 6.02944 7.02944 2 12 2C16.9706 2 21 6.02944 21 11V16H19V11C19 7.13401 15.866 4 12 4C8.13401 4 5 7.13401 5 11V16H3V11Z" fill="#76797F"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M5 13C3.89543 13 3 13.8954 3 15V19C3 20.1046 3.89543 21 5 21H7C8.10457 21 9 20.1046 9 19V15C9 13.8954 8.10457 13 7 13H5ZM17 13C15.8954 13 15 13.8954 15 15V19C15 20.1046 15.8954 21 17 21H19C20.1046 21 21 20.1046 21 19V15C21 13.8954 20.1046 13 19 13H17Z" fill="#76797F"></path></svg>
+                    <span class="text-[14px] font-semibold hover:text-[#2C7AC7]">Elektronika</span>
+                </div>
+                <i class="text-[12px] fa-solid fa-chevron-right"></i>
+            </div>
         </div>
     </div>
 </template>
