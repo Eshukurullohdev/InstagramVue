@@ -1,3 +1,13 @@
+<script setup>
+import {ref} from 'vue'
+
+const  MenuOpen = ref(false)
+
+const showMenu = () => {
+    MenuOpen.value = !MenuOpen.value
+}
+
+</script>
 <template>
     <div class="bg-[#F0F2F5] p-2 text-[14px]">
         <div class="container_large flex items-center justify-between w-full">
@@ -34,8 +44,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="container_large mt-4 flex items-center justify-between">
         <div class="flex items-center gap-4">
             <a href="#" class="flex items-center gap-2 select-none">
@@ -60,7 +68,7 @@
         </div>
 
         <div class="flex items-center gap-4">
-            <div class="flex items-center gap-3  hover:bg-[#B2B2B2] hover:px-3 hover:py-3 rounded-[5px]">
+            <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
                 <i class="text-[] fa-regular fa-user"></i>
                 <span class="text-[14px]">Shukurullloh</span>
             </div>
@@ -89,7 +97,12 @@
             <a href="#">Salomatlik</a>
             <a href="#">Uy-ro'zg'or buyumlari</a>
             <a href="#">Qurulush va taminlash</a>
-            <a href="#">Yana <i class="fa-solid fa-chevron-down"></i></a>
+            
+            <a @click="showMenu" href="#">Yana <i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+        <div v-if="MenuOpen" class="w-full h-[100px] bg-red-500">
+            <i @click="showMenu" class="fa-solid fa-xmark cursor-pointer"></i>
+            <h1>narsalar</h1>
         </div>
     </div>
 </template>
