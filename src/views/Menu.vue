@@ -64,10 +64,12 @@ const MenuOchil = ref(false)
         </div>
 
         <div class="flex items-center gap-4">
-            <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
-                <i class="text-[] fa-regular fa-user"></i>
-                <span class="text-[14px]">Shukurullloh</span>
-            </div>
+            <RouterLink to="/login">
+                <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
+                    <i class="text-[] fa-regular fa-user"></i>
+                    <span class="text-[14px]">Shukurullloh</span>
+                </div>
+            </RouterLink>
             <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
                 <i class="text-[] fa-regular fa-heart"></i>
                 <span class="text-[14px]">Saralan</span>
@@ -442,6 +444,86 @@ const MenuOchil = ref(false)
                 <h1 class="text-[18px] font-semibold">Salomatlik</h1>
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
+
+            <div class="mt-4 flex items-center  gap-[50px]">
+                <div>
+                    <a class="text-[14px] font-semibold" href="#">Vitaminlar va BFQlar</a>
+                    <p class="w-[240px] mt-2 text-[14px] text-[#7e818c] leading-8">Ovqat hazm qilish tizimi uchun
+                        A va E vitaminlari
+                        Erkak salomatligi
+                        Vitamin va mineral komplekslar
+                        Yana 33 <i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+                <div>
+                    <a class="text-[14px] font-semibold" href="#">Sportchilar uchun ozuqalar</a>
+                    <p class="w-[240px] mt-2 text-[14px] text-[#7e818c] leading-8">Gaynerlar va oqsillar
+                        BCAA va aminokislotalar
+                        Maxsus preparatlar
+                        Kreatinlar
+                        Yana 33 <i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+                <div>
+                    <a class="text-[14px] font-semibold" href="#">Vitaminlar va BFQlar</a>
+                    <p class="w-[240px] mt-2 text-[14px] text-[#7e818c] leading-8">Tana uchun massaj moslamalari
+                        Oyoq uchun massaj moslamalari
+                        Bosh uchun massaj moslamalari
+                        Massaj gilamchalari
+                        Yana 33 <i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="mt-4 flex items-center  gap-[50px]">
+                <div>
+                    <a class="text-[14px] font-semibold" href="#">Vitaminlar va BFQlar</a>
+                    <p class="w-[240px] mt-2 text-[14px] text-[#7e818c] leading-8">Ovqat hazm qilish tizimi uchun
+                        A va E vitaminlari
+                        Erkak salomatligi
+                        Vitamin va mineral komplekslar
+                        Yana 33 <i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+                <div>
+                    <a class="text-[14px] font-semibold" href="#">Sportchilar uchun ozuqalar</a>
+                    <p class="w-[240px] mt-2 text-[14px] text-[#7e818c] leading-8">Gaynerlar va oqsillar
+                        BCAA va aminokislotalar
+                        Maxsus preparatlar
+                        Kreatinlar
+                        Yana 33 <i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+                <div>
+                    <a class="text-[14px] font-semibold" href="#">Vitaminlar va BFQlar</a>
+                    <p class="w-[240px] mt-2 text-[14px] text-[#7e818c] leading-8">Tana uchun massaj moslamalari
+                        Oyoq uchun massaj moslamalari
+                        Bosh uchun massaj moslamalari
+                        Massaj gilamchalari
+                        Yana 33 <i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="mt-4 flex items-center  gap-[50px]">
+                <div>
+                    <a class="text-[14px] font-semibold" href="#">Vitaminlar va BFQlar</a>
+                    <p class="w-[240px] mt-2 text-[14px] text-[#7e818c] leading-8">Ovqat hazm qilish tizimi uchun
+                        A va E vitaminlari
+                        Erkak salomatligi
+                        Vitamin va mineral komplekslar
+                        Yana 33 <i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+                <div>
+                    <a class="text-[14px] font-semibold" href="#">Sportchilar uchun ozuqalar</a>
+                    <p class="w-[240px] mt-2 text-[14px] text-[#7e818c] leading-8">Gaynerlar va oqsillar
+                        BCAA va aminokislotalar
+                        Maxsus preparatlar
+                        Kreatinlar
+                        Yana 33 <i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+                <div>
+                    <a class="text-[14px] font-semibold" href="#">Vitaminlar va BFQlar</a>
+                    <p class="w-[240px] mt-2 text-[14px] text-[#7e818c] leading-8">Tana uchun massaj moslamalari
+                        Oyoq uchun massaj moslamalari
+                        Bosh uchun massaj moslamalari
+                        Massaj gilamchalari
+                        Yana 33 <i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            
         </div>
     </div>
 
