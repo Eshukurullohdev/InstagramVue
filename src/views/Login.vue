@@ -1,6 +1,7 @@
 <template>
+<Menu />
         <div class="absolute top-0 left-0 w-full h-full bg-[#7F4DFE] opacity-50">
-            <div class="container_large w-[414px] h-[482px] bg-white rounded-[20px] p-[50px] relative z-999 mt-[100px]">
+            <div class="container_large w-[414px] h-[482px] bg-white rounded-[20px] p-[50px] relative z-999 mt-[170px]">
                 <RouterLink to="/">
                     <i class="absolute top-[20px] right-[20px] text-[20px]  cursor-pointer hover:bg-[#f0f2f8] p-3 rounded-full fa-solid fa-xmark"></i>
                 </RouterLink>
@@ -15,3 +16,7 @@
             </div>
         </div>
 </template>
+
+<script setup>
+import Menu from './Menu.vue';
+</script>
