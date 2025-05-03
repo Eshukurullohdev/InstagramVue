@@ -67,17 +67,21 @@ const MenuOchil = ref(false)
             <RouterLink to="/login">
                 <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
                     <i class="text-[] fa-regular fa-user"></i>
-                    <span class="text-[14px]">Shukurullloh</span>
+                    <span class="text-[14px]">Kirish</span>
                 </div>
             </RouterLink>
-            <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
+            <RouterLink to="/saralangan">
+                <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
                 <i class="text-[] fa-regular fa-heart"></i>
-                <span class="text-[14px]">Saralan</span>
+                <span class="text-[14px]">Saralangan</span>
             </div>
-            <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
+            </RouterLink>
+            <RouterLink to="/savat">
+                <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
                 <i class="text-[] fa-solid fa-store"></i>
-                <span class="text-[14px]">Shukurullloh</span>
+                <span class="text-[14px]">Savat</span>
             </div>
+            </RouterLink>
         </div>
     </div>
 
