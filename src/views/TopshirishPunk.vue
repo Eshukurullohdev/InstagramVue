@@ -132,4 +132,68 @@
 
     </div>
 
+    <div class="flex justify-center items-center">
+        <div>
+            <h1 class="text-[36px] font-bold mr-[450px] mt-[70px]">Nimalarni tayyorlash kerak</h1>
+            <div class="flex gap-3 mb-[50px]">
+                <div class="w-[291px] h-[116px] bg-[#f0f2f5] rounded-[30px] mt-[30px] p-[24px]">
+                    <h2 class="font-extrabold">Joy</h2>
+                    <p class="text-[14px]">Buyurtmalar topshirish zonasi sig‘ishiga 20-50 m² joy mos keladi</p>
+                </div>
+                <div class="w-[291px] h-[116px] bg-[#f0f2f5] rounded-[30px] mt-[30px] p-[24px]">
+                    <h2 class="font-extrabold">Texnika</h2>
+                    <p class="text-[14px]">Videokameralar, telefon, noutbuk, skaner va mebel</p>
+                </div>
+                <div class="w-[291px] h-[116px] bg-[#f0f2f5] rounded-[30px] mt-[30px] p-[24px]">
+                    <h2 class="font-extrabold">Ishlash jadvali</h2>
+                    <p class="text-[14px]">Mijozlarni har kuni qabul qilishga — 10:00 dan 20:00 gacha</p>
+                </div>
+            </div>
+            <h1 class="text-[36px] font-bold mr-[450px] mt-[70px]">Nega aynan bizni tanlash kerak</h1>
+            <div class="flex gap-4">
+                <div class="w-[442px] h-[138px] bg-[#f0f2f5] rounded-[30px] mt-[30px] p-[24px]">
+                    <h2 class="font-extrabold text-[42px] text-[#7f4dff]">1,2 mln ta</h2>
+                    <p class="text-[18px]">mijozlar</p>
+                </div>
+                <div class="w-[442px] h-[138px] bg-[#f0f2f5] rounded-[30px] mt-[30px] p-[24px]">
+                    <h2 class="font-extrabold text-[42px] text-[#7f4dff]">20 mln ta</h2>
+                    <p class="text-[18px]">yil davomida topshirilgan buyurtmalar</p>
+                </div>
+            </div>
+            <div class="flex gap-4 mb-[50px]">
+                <div class="w-[442px] h-[138px] bg-[#f0f2f5] rounded-[30px] mt-[30px] p-[24px]">
+                    <h2 class="font-extrabold text-[42px] text-[#7f4dff]">14 000 nafar</h2>
+                    <p class="text-[18px]">Uzum Market’dagi sotuvchilar</p>
+                </div>
+                <div class="w-[442px] h-[138px] bg-[#f0f2f5] rounded-[30px] mt-[30px] p-[24px]">
+                    <h2 class="font-extrabold text-[42px] text-[#7f4dff]">250 ta</h2>
+                    <p class="text-[18px]">shahar</p>
+                </div>
+            </div>
+            <div class="flex justify-between mb-[40px]">
+                <div>
+                    <h1 class="text-[36px] font-bold mr-[450px] mt-[70px]">Brending materiallari</h1>
+                    <p class="text-[18px]">Batafsil <a class="text-[#7f4dff]" href="#">Brendbuk.pdf</a></p>
+                </div>
+                <div class="mt-[100px] flex gap-5 mr-[60px]">
+                    <i class="text-[25px] bg-[#f0f2f5] text-[grey] p-3 rounded-[50%] fa-solid fa-chevron-left"></i>
+                    <i class="text-[25px] bg-[#f0f0f0] p-3 rounded-[50%] fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="flex gap-5 mb-[100px]">
+                <img class="w-[528px] h-[448px] rounded-[40px]" src="" alt="">
+                <img class="w-[360px] h-[448px] rounded-l-[30px]" src="" alt="">
+            </div>
+            <div class="w-[900px] h-[305px] bg-[blue] rounded-[30px] p-[40px] mb-[70px]">
+                <div>
+                    <h1 class="text-[36px] text-[#fff]">Hozir ayni vaqti</h1>
+                    <p class="text-[#fff] mt-[10px] text-[18px]">Bizga qo‘shiling, balki siz birinchi Uzum Market topshirish <br> punktini ocharsiz oʻz shahringizda!</p>
+                    <a class="bg-[#fff] py-[15px] px-[50px] font-[600] inline-block rounded-[10px] mt-[30px]" href="#">Aloqa uchun ma'lumot qoldirish</a>
+                    <p class="text-[11px] mt-[20px] text-[#ffffffb3]">Davom etish orqali siz, <a class="underline" href="#">shaxsiy ma’lumotlarni qayta ishlash siyosatiga </a>rozilik bildirasiz</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
 </template>
