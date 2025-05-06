@@ -55,18 +55,18 @@
             class="text-left   text-black-400 text-[27px] font-[700] mb-[37px]">Bu nima uchun foydali</div>
         <div class="flex justify-between gap-4">
             <div class="text-left w-[320px] h-[260px] bg-[#F0F2F5] rounded-[20px] p-[25px]">
-                <img class="w-[74px] h-[74px] mb-[6px]  bg-[#E1E5FF] rounded-[50%] p-[3px] " src="" alt="">
+                <img class="w-[74px] h-[74px] mb-[6px]  bg-[#E1E5FF] rounded-[50%] p-[3px] " src="https://uzum.uz/landings/_ipx/s_148x148/landings/img/pvz/icons/money-lg.png" alt="">
                 <div style="letter-spacing:0.5px" class="text-[18px] font-[600] mb-[4px]">Birinchi ish oylining <br>
                     o'zidan daromad</div>
                 <div class="text-[14px] text-[#A0A2A9]">Barqaror qo'shimcha daromadga ega bo'ling</div>
             </div>
             <div class="text-left w-[320px] h-[260px] bg-[#F0F2F5] rounded-[20px] p-[25px] ">
-                <img class="w-[74px] h-[74px] mb-[6px]  bg-[#E1E5FF] rounded-[50%] p-[3px] " src="" alt="">
+                <img class="w-[74px] h-[74px] mb-[6px]  bg-[#E1E5FF] rounded-[50%] p-[3px] " src="https://uzum.uz/landings/_ipx/s_148x148/landings/img/pvz/icons/circle-check.png" alt="">
                 <div class="text-[18px] font-[600] mb-[4px]">Eng yaxshi <br>texnalogiyalarni takif <br> qilamiz</div>
                 <div class="text-[14px] text-[#A0A2A9]">Uzum market bilan qulay va samarali ishlashga</div>
             </div>
             <div class="text-left w-[320px] h-[260px] bg-[#F0F2F5] rounded-[20px] p-[25px] ">
-                <img class="w-[74px] h-[74px] mb-[6px]  bg-[#E1E5FF] rounded-[50%] p-[3px] " src="" alt="">
+                <img class="w-[74px] h-[74px] mb-[6px]  bg-[#E1E5FF] rounded-[50%] p-[3px] " src="https://uzum.uz/landings/_ipx/s_148x148/landings/img/pvz/icons/delivery.png" alt="">
                 <div style="letter-spacing:0.5px" class="text-[18px] font-[600] mb-[4px]">Bizga ishonish mumkin</div>
                 <div class="text-[14px] text-[#A0A2A9]">Mamlakatdagi 10 ta odamdan 9 tasi uzum market haqida bilishadi
                 </div>
@@ -181,8 +181,8 @@
                 </div>
             </div>
             <div class="flex gap-5 mb-[100px]">
-                <img class="w-[528px] h-[448px] rounded-[40px]" src="" alt="">
-                <img class="w-[360px] h-[448px] rounded-l-[30px]" src="" alt="">
+                <img class="w-[528px] h-[448px] rounded-[40px]" src="https://static.uzum.uz/PVZ/pvz-21.jpg" alt="">
+                <img class="w-[360px] h-[448px] rounded-l-[30px]" src="https://static.uzum.uz/PVZ/pvz-22.jpg" alt="">
             </div>
             <div class="w-[900px] h-[305px] bg-[blue] rounded-[30px] p-[40px] mb-[70px]">
                 <div>
@@ -195,5 +195,33 @@
             
         </div>
     </div>
+    <section class="justify-center flex">
+        <div class="mt-52">
+        <h2 class="font-bold text-[40px] ml-[30px]">Savollarga javob beramiz</h2>
+        <div class="mt-8">
+            <div class="relative w-[990px] h-[80px] text-[25px] hover:bg-[#f1ebeb] hover:rounded-[15px]">
+                <a class="absolute top-[22px] left-[30px] flex justify-between font-semibold" href="#">Qanday joylar topshirish punkitlari mos keladi? <i class="absolute right-[-400px] top-[10px] text-[20px] fa-solid fa-chevron-down"></i></a>
+            </div>
+            <hr class="w-[940px] ml-[30px]">
+            <div class="relative w-[990px] h-[80px] text-[25px] hover:bg-[#f1ebeb] hover:rounded-[15px]">
+                <a class="absolute top-[22px] left-[30px] flex justify-between font-semibold" href="#">Nechta topshirish punktini ochish mumkin?<i class="absolute right-[-440px] top-[10px] text-[20px] fa-solid fa-chevron-down"></i></a>
+            </div>
+            <hr class="w-[940px] ml-[30px]">
+            <div class="relative w-[990px] h-[80px] text-[25px] hover:bg-[#f1ebeb] hover:rounded-[15px] mb-[50px]">
+                <a class="absolute top-[22px] left-[30px] flex justify-between font-semibold" href="#">Yana savollaringiz bo'lsa<i class="absolute right-[-660px] top-[10px] text-[20px] fa-solid fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer class="h-[162px] mt-[25px] flex items-center justify-center bg-[#f0f2f5]">
+        <div class="flex items-center justify-between w-[990px]">
+            <img class="w-[137px] h-[40px]" src="https://uzum.uz/landings/_ipx/_/landings/img/uzum-logo-accented.svg" alt="">
+            <a class="text-[14px] font-semibold" href="#">Sotuvchi bo'lish</a>
+            <a class="text-[14px] font-semibold" href="#">Oferta shartnomasi</a>
+            <a class="text-[14px] font-semibold" href="#">Maxfiylik siyosati</a>
+            <a class="text-[14px] font-semibold" href="#">Bredbuk.pdf</a>
+            <a class="ml-[50px] text-[14px]" href="#">@2025</a>
+        </div>
+    </footer>
 
 </template>
