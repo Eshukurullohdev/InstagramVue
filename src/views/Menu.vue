@@ -17,7 +17,9 @@ const MenuOchil = ref(false)
             <div class="flex gap-4">
                 <a class="text-[#7f4dff]" href="#">Sotuvchi bo'lish</a>
                 <div class="w-[2px] h-[17px] bg-[#DEE0E5]"></div>
-                <a class="text-[#7f4dff]" href="#">Topshirish punkitini ochish</a>
+                <RouterLink to="/punkit">
+                    <a class="text-[#7f4dff]" href="#">Topshirish punkitini ochish</a>
+                </RouterLink>
                 <a class="text-[#4d4f59]" href="#">Savol javob</a>
                 <a class="text-[#4d4f59]" href="#">Buyurtmalarim</a>
                 <svg data-v-0e8a64de="" width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -68,7 +70,7 @@ const MenuOchil = ref(false)
                 <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
                     <i class="text-[] fa-regular fa-user"></i>
                     <span class="text-[14px]">Kirish</span>
-                </div>
+                </div> 
             </RouterLink>
             <RouterLink to="/saralangan">
                 <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
