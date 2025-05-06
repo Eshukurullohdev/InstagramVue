@@ -2,8 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Menu from '@/views/Menu.vue'
 import Login from '@/views/Login.vue'
-import Saralangan from '@/views/saralangan.vue'
+import Saralangan from '@/views/Saralangan.vue'
 import Savat from '@/views/savat.vue'
+import TopshirishPunk from '@/views/TopshirishPunk.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: '/savat',
       name: 'savat',
       component: Savat
+    },
+    {
+      path: '/punkit',
+      name: 'punkit',
+      component: TopshirishPunk
     }
   ],
 })
