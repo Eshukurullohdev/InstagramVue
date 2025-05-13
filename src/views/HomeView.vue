@@ -1,3 +1,31 @@
+<script setup>
+import Menu from './Menu.vue';
+// Import Swiper Vue.js components
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Import Swiper styles
+import 'swiper/css';
+
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import "@/assets/main.css";
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+defineProps({
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+});
+const modules = [Autoplay, Pagination, Navigation];
+
+import { ref } from 'vue'
+const toshkent = ref(false)
+</script>
 <template>
   <Menu />
   <main class="container_large">
@@ -141,30 +169,9 @@
       </div>
     </div>
   </main>
+    <button @click="toshkent = !toshkent">click</button>
+  <div v-show="toshkent" class="w-[300px] h-[300px]  bg-red-500 absolute">
+
+  </div>
 </template>
 
-<script setup>
-import Menu from './Menu.vue';
-// Import Swiper Vue.js components
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue';
-
-// Import Swiper styles
-import 'swiper/css';
-
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-
-import "@/assets/main.css";
-
-// import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-
-defineProps({
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-});
-const modules = [Autoplay, Pagination, Navigation];
-</script>

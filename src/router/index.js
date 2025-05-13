@@ -6,6 +6,8 @@ import Saralangan from '@/views/Saralangan.vue'
 import Savat from '@/views/savat.vue'
 import TopshirishPunk from '@/views/TopshirishPunk.vue'
 import Sotuvchi from '@/views/Sotuvchi.vue'
+import RegisterSotuv from '@/views/RegisterSotuv.vue'
+import KirishSotuv from '@/views/KirishSotuv.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -43,6 +45,16 @@ const router = createRouter({
       path: '/sotuvchi',
       name: 'sotuvchi',
       component: Sotuvchi
+    },
+    {
+      path: '/registersotuv',
+      name: 'registersotuv',
+      component: RegisterSotuv
+    },
+    {
+      path: '/kirishsotuv',
+      name: 'kirishsotuv',
+      component: KirishSotuv
     }
   ],
 })
