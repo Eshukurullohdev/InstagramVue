@@ -5,7 +5,7 @@ import Login from '@/views/Login.vue'
 import Saralangan from '@/views/Saralangan.vue'
 import Savat from '@/views/savat.vue'
 import TopshirishPunk from '@/views/TopshirishPunk.vue'
-
+import Sotuvchi from '@/views/Sotuvchi.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -38,6 +38,11 @@ const router = createRouter({
       path: '/punkit',
       name: 'punkit',
       component: TopshirishPunk
+    },
+    {
+      path: '/sotuvchi',
+      name: 'sotuvchi',
+      component: Sotuvchi
     }
   ],
 })

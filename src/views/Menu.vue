@@ -15,7 +15,9 @@ const MenuOchil = ref(false)
                 <span>Topshirish punkitlari</span>
             </div>
             <div class="flex gap-4">
-                <a class="text-[#7f4dff]" href="#">Sotuvchi bo'lish</a>
+                <RouterLink to="/sotuvchi">
+                    <a class="text-[#7f4dff]" href="#">Sotuvchi bo'lish</a>
+                </RouterLink>
                 <div class="w-[2px] h-[17px] bg-[#DEE0E5]"></div>
                 <RouterLink to="/punkit">
                     <a class="text-[#7f4dff]" href="#">Topshirish punkitini ochish</a>
