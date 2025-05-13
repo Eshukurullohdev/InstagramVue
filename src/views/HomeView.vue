@@ -169,7 +169,7 @@ const toshkent = ref(false)
       </div>
     </div>
   </main>
-    <button @click="toshkent = !toshkent">click</button>
+  <button @click="toshkent = !toshkent">click</button>
   <div v-show="toshkent" class="w-[300px] h-[300px]  bg-red-500 absolute">
 
   </div>
