@@ -12,7 +12,10 @@ const MenuOchil = ref(false)
                 <span style="border-bottom: 1px solid #1f2026;">
                     Tashkent
                 </span>
-                <span>Topshirish punkitlari</span>
+                <RouterLink to="items">
+
+                    <span>Topshirish punkitlari</span>
+        </RouterLink>
             </div>
             <div class="flex gap-4">
                 <RouterLink to="/sotuvchi">
