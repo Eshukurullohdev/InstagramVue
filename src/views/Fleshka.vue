@@ -31,14 +31,14 @@ import Menu from './Menu.vue';
                         href="">460 sharh</a></div>
                 <div class="flex gap-1 justify-left container_large mt-[15px] ">
                     <img class="object-cover rounded-[10px]  w-[86px] h-[86px]" src="https://images.uzum.uz/cvqfs35pb7fbmqmn0k5g/feedback_40.jpg" alt="">
-                    <img class="object-cover rounded-[10px]  w-[86px] h-[86px]" src="" alt="">
-                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="" alt="">
-                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="" alt="">
-                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="" alt="">
-                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="" alt="">
-                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="" alt="">
-                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="" alt="">
-                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="" alt="">
+                    <img class="object-cover rounded-[10px]  w-[86px] h-[86px]" src="https://images.uzum.uz/cvrqm6tpb7fbmqmnb8sg/feedback_40.jpg" alt="">
+                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="https://images.uzum.uz/cvn17pdpb7fbmqmm4jng/feedback_40.jpg" alt="">
+                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="https://images.uzum.uz/cvrqnrmi4n37npao0r1g/feedback_40.jpg" alt="">
+                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="https://images.uzum.uz/cvmkmf5pb7fbmqmm2hvg/feedback_40.jpg" alt="">
+                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="https://images.uzum.uz/cvkvm6k7fd1p445qe08g/feedback_40.jpg" alt="">
+                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="https://images.uzum.uz/cvkvm6k7fd1p445qe08g/feedback_40.jpg" alt="">
+                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="https://images.uzum.uz/cvimf4jvgbkm5ehmai50/feedback_40.jpg" alt="">
+                    <img class="object-cover rounded-[10px] w-[86px] h-[86px]" src="https://images.uzum.uz/cv3cqvui4n36ls3sv8r0/feedback_40.jpg" alt="">
                     <div class="relative ">
                         <div class="absolute  rounded-[10px] w-[100%] h-[100%]   text-center mt-[30px] text-[#fff]">+9
                         </div>
