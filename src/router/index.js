@@ -8,6 +8,7 @@ import TopshirishPunk from '@/views/TopshirishPunk.vue'
 import Sotuvchi from '@/views/Sotuvchi.vue'
 import RegisterSotuv from '@/views/RegisterSotuv.vue'
 import KirishSotuv from '@/views/KirishSotuv.vue'
+import Fleshka from '@/views/Fleshka.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -55,6 +56,11 @@ const router = createRouter({
       path: '/kirishsotuv',
       name: 'kirishsotuv',
       component: KirishSotuv
+    },
+    {
+      path: '/fleshka',
+      name: 'fleshka',
+      component: Fleshka
     }
   ],
 })
