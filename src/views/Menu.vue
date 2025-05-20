@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import { RouterLink } from 'vue-router';
 
 const MenuOchil = ref(false)
 </script>
@@ -15,7 +16,7 @@ const MenuOchil = ref(false)
                 <RouterLink to="items">
 
                     <span>Topshirish punkitlari</span>
-        </RouterLink>
+                </RouterLink>
             </div>
             <div class="flex gap-4">
                 <RouterLink to="/sotuvchi">
@@ -75,19 +76,19 @@ const MenuOchil = ref(false)
                 <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
                     <i class="text-[] fa-regular fa-user"></i>
                     <span class="text-[14px]">Kirish</span>
-                </div> 
+                </div>
             </RouterLink>
             <RouterLink to="/saralangan">
                 <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
-                <i class="text-[] fa-regular fa-heart"></i>
-                <span class="text-[14px]">Saralangan</span>
-            </div>
+                    <i class="text-[] fa-regular fa-heart"></i>
+                    <span class="text-[14px]">Saralangan</span>
+                </div>
             </RouterLink>
             <RouterLink to="/savat">
                 <div class="flex items-center gap-3 rounded-[5px] hover:bg-[#B2B2B2] hover:cursor-pointer p-3">
-                <i class="text-[] fa-solid fa-store"></i>
-                <span class="text-[14px]">Savat</span>
-            </div>
+                    <i class="text-[] fa-solid fa-store"></i>
+                    <span class="text-[14px]">Savat</span>
+                </div>
             </RouterLink>
         </div>
     </div>
@@ -98,7 +99,9 @@ const MenuOchil = ref(false)
             <a class="text-[12px] font-bold" href="#">Hafta tovarlari</a>
         </div>
         <div class="text-[14px] text-[#4d4f59] flex gap-[27px] ml-[130px]">
-            <a href="#">Elektronika</a>
+            <RouterLink to="/elektra">
+                <a href="#">Elektronika</a>
+            </RouterLink>
             <a href="#">Maishiy texnika</a>
             <a href="#">Kiyim</a>
             <a href="#">Poyabzallar</a>
@@ -534,7 +537,7 @@ const MenuOchil = ref(false)
                         Yana 33 <i class="fa-solid fa-chevron-down"></i></p>
                 </div>
             </div>
-            
+
         </div>
     </div>
 
