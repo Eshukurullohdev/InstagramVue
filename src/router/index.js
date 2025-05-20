@@ -10,7 +10,7 @@ import RegisterSotuv from '@/views/RegisterSotuv.vue'
 import KirishSotuv from '@/views/KirishSotuv.vue'
 import Fleshka from '@/views/Fleshka.vue'
 import Items from '@/views/Items.vue'
-
+import Elektroniki from '@/views/Elektroniki.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -68,6 +68,11 @@ const router = createRouter({
       path: '/items',
       name: 'items',
       component: Items
+    },
+    {
+      path: '/elektra',
+      name: 'elektra',
+      component: Elektroniki
     }
   ],
 })
