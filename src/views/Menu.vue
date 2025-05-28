@@ -53,14 +53,17 @@ const MenuOchil = ref(false)
     </div>
     <div class="container_large mt-4 flex items-center justify-between">
         <div class="flex items-center gap-4">
-            <a href="#" class="flex items-center gap-2 select-none">
-                <img class="w-[30px] h-[30px] rounded-full"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jybTGUSvxWxihbZMxwinqDCquA6PkMiC1Q&s"
-                    alt="">
-                <blockquote class="text-[#2C7AC7] font-bold text-[25px]">
-                    Uzum market
-                </blockquote>
-            </a>
+            <RouterLink to="/">
+             
+                <a href="#" class="flex items-center gap-2 select-none">
+                    <img class="w-[30px] h-[30px] rounded-full"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jybTGUSvxWxihbZMxwinqDCquA6PkMiC1Q&s"
+                        alt="">
+                    <blockquote class="text-[#2C7AC7] font-bold text-[25px]">
+                        Uzum market
+                    </blockquote>
+                </a>
+            </RouterLink>
             <button class="py-2 px-4 bg-[#E5E5FF] rounded-[5px] text-[#7F4DFF]">
                 <i class="text-[20px] text-[#7F4DFF] fa-brands fa-buffer !mr-2"></i>
                 Katalog</button>
