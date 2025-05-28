@@ -1,4 +1,8 @@
+<script setup>
+import Menu from './Menu.vue';
+</script>
 <template>
+    <Menu />
       <div class="p-[32px] container_large border-[2px] w-[1100px]">
         <div class="pb-[16px]">
             <h3 class="text-[24px] pb-[16px] font-[600] leading-[30px] tracking-[2px]">Ro’yxatdan o’tish</h3>
