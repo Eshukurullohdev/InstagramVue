@@ -11,6 +11,7 @@ import KirishSotuv from '@/views/KirishSotuv.vue'
 import Fleshka from '@/views/Fleshka.vue'
 import Items from '@/views/Items.vue'
 import Elektroniki from '@/views/Elektroniki.vue'
+import Savol from '@/views/Savol.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -73,6 +74,11 @@ const router = createRouter({
       path: '/elektra',
       name: 'elektra',
       component: Elektroniki
+    },
+    {
+      path: '/savol',
+      name: 'savol',
+      component: Savol
     }
   ],
 })

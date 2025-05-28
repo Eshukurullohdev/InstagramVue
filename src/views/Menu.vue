@@ -26,7 +26,10 @@ const MenuOchil = ref(false)
                 <RouterLink to="/punkit">
                     <a class="text-[#7f4dff]" href="#">Topshirish punkitini ochish</a>
                 </RouterLink>
-                <a class="text-[#4d4f59]" href="#">Savol javob</a>
+                 <RouterLink to="/savol">
+                      <a class="text-[#4d4f59]" href="#">Savol javob</a>
+                </RouterLink>
+              
                 <a class="text-[#4d4f59]" href="#">Buyurtmalarim</a>
                 <svg data-v-0e8a64de="" width="20" height="20" viewBox="0 0 20 20" fill="none"
                     xmlns="http://www.w3.org/2000/svg" class="ui-icon ">
